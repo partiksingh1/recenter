@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+#final_alert,
+#final_alert * {
+  all: revert !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#final_alert {
+  width: 675px !important;
+  min-height: 256px !important;
+  background: #2087ff !important;
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 999999 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  &__title {
+    display: flex !important;
+    gap: 7px !important;
+    margin-top: 30px !important;
+
+    &__logo {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+
+      & img {
+        width: 28px !important;
+        aspect-ratio: 1 !important;
+      }
+    }
+
+    &__text {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      & h1 {
+        font-family: Inter !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        line-height: 19px !important;
+        letter-spacing: 0em !important;
+        padding: 0 !important;
+        color: #0052bd !important;
+      }
+    }
+  }
+
+  &__line {
+    margin-top: 24px !important;
+    width: 525px !important;
+    text-align: center !important;
+    font-family: Inter !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    letter-spacing: 0em !important;
+    color: #ffffff !important;
+  }
+
+  &__activity {
+    font-family: Inter !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: 0em !important;
+    text-align: center !important;
+    margin-top: 14px !important;
+    color: #ffffff !important;
+  }
+
+  &__button {
+    background: #ffffff !important;
+    margin-top: 29px !important;
+    padding: 7.5px 37px !important;
+    border-radius: 38px !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 19px !important;
+    letter-spacing: 0 !important;
+    color: black !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 30px !important;
+  }
+}

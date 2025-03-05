@@ -1,0 +1,26 @@
+.profile_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  &__content {
+    &__header {
+      font-weight: 600;
+      width: calc(100% - 52px);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    margin-top: 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    border-radius: 50px 50px 0 0;
+    background: var(--background-color);
+    padding-top: 36px;
+    gap: 9px;
+    min-height: 100%;
+  }
+}
